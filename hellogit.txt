@@ -1,1 +1,26 @@
-
+vim hellogit.txt 创建txt文件并编辑
+如果文件存在则直接进入 不存在则创建该文件并进入
+输入[i]进入编辑状态
+按下[esc : wq]保存并退出
+[vim] hellogit.txt 创建txt文件并编辑
+不需要进入编辑状态指定行yy是复制p是粘贴
+dd是删除一行
+(3)上传本地库git commit -m "文件名字"
+(2)git rm --cached 删除暂存区
+(2)git add  存储暂存区
+(1)git status
+提交本地库
+上下是shift.z
+vim是创建文件
+i是写入
+想回上一步的操作得先
+git reflog(查版本号)
+然后git reset -hard(版本号)
+然后按vim文件(查看)
+将光标移动到指定位置按下dd删除改行
+git add文件名
+git status查看当前git的状态
+退出esc:wq退出保存
+yy复制 p是粘贴
+dd删除一行
+hot-fix
